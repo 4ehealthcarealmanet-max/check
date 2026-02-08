@@ -1,8 +1,8 @@
-import type { NextConfig } from "next";
+import { NextConfig } from "next";
 
 const nextConfig: NextConfig = {
-  /* config options here */
-  reactCompiler: true,
+  output: "export",       // allows static export
+  trailingSlash: true,    // optional, ensures all URLs end with / (good for static hosting)
 };
 
 export default nextConfig;
