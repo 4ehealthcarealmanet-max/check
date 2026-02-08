@@ -1,6 +1,6 @@
 /** @type {import('next').NextConfig} */
 const nextConfig = {
-  reactStrictMode: true,
+  output: "export",
+  trailingSlash: true, // optional, for static hosting
 };
-
 export default nextConfig;
